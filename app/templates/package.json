@@ -1,0 +1,34 @@
+{
+    "dependencies": {
+        "gulp": "^3.x",
+        "gulp-watch": "*",
+        "gulp-filter": "*",
+        "gulp-uglify": "*",
+        "gulp-flatten": "*",
+        "gulp-debug": "*",
+        "gulp-concat": "*",
+        "gulp-order": "*",
+        "gulp-batch-replace": "*",
+        "gulp-if": "*",
+        "gulp-util": "*",
+        "gulp-strip-debug": "*",
+        "gulp-imports": "*",
+        "gulp-cat": "*",
+        "gulp-beautify": "*",
+
+        "require-dir": "*",
+
+        "minimist": "*",
+
+        "lazypipe": "*"
+
+
+    },
+    "name": "js",
+    "keywords": [],
+    "version": "0.0.1",
+    "bugs": {
+        "url": "null"
+    },
+    "main": "./"
+}

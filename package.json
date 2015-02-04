@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "gulp": "^3.x",
+        "gulp-install": "*",
+        "gulp-conflict": "*",
+        "gulp-template": "*",
+        "inquirer": "*"
+
+    },
+    "name": "slush-gulp-builder",
+    "keywords": [],
+    "version": "0.0.1",
+    "bugs": {
+        "url": "null"
+    },
+    "main": "./"
+}
