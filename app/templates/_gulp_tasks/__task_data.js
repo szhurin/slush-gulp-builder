@@ -1,9 +1,13 @@
-function getCommon(codeDir, dest, resultName, wrapFileNames) {
+function getCommon(codeDir, dest, resultName, useInit, wrapFileNames) {
 
     dest = dest || 'js/';
     if (dest.substr(-1, 1) !== '/') {
         dest += '/';
     }
+
+    useInit = useInit || false;
+    var initDest = (useInit) ? codeDir + '/__init/__temp/' : dest;
+
 
     resultName = resultName || 'main.js';
     wrapFileNames = wrapFileNames || {
@@ -14,7 +18,7 @@ function getCommon(codeDir, dest, resultName, wrapFileNames) {
     return {
         codeDir: codeDir,
         dest: dest,
-        initDest: codeDir + '/__init/__temp/',
+        initDest: initDest,
         destFileName: resultName,
         filterNoInitArray: ['**/*.js', '!**/__init/**', '!**/__temp/**'],
         filterInitArray: ['**/__init/**', '!**/__temp/**'],
