@@ -18,7 +18,7 @@ console.log(argv);
 
 var taskData = require('./__task_data.js');
 
-var getDirStream = require('./_dir_stream.js');
+var getDirStream = require('./templates/_dir_stream.js');
 
 
 gulp.task('js_dir_compiler', function () {

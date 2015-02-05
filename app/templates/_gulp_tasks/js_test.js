@@ -2,7 +2,7 @@ var gulp = require('gulp');
 
 var taskData = require('./__task_data.js');
 
-var template = require('./_js_template.js');
+var template = require('./templates/_js_template.js');
 
 gulp.task('js_test', ['js_dir_compiler'], function () {
 
